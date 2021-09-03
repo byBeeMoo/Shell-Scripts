@@ -7,6 +7,8 @@ Sets up a quick access point with hostapd
 - passphrase
 
 ---------------------------------------------------------------
+----
+----
 
 
 
@@ -18,8 +20,8 @@ Basic ping script without output unless endpoint discovered and result dump into
 !! **Caution: if it doesn't work check ifconfig output** !!
 
 ----------------------------------------------------------------
-
-
+----
+----
 
 
 
@@ -32,3 +34,5 @@ Quick basic reverse shell script
 - {port} field
 
 ----------------------------------------------------------------
+---
+---
