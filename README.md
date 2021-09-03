@@ -8,12 +8,20 @@ Sets up a quick access point with hostapd
 
 ---------------------------------------------------------------
 
+
+
+
+
 # Network
 Basic ping script without output unless endpoint discovered and result dump into file
 
 !! **Caution: if it doesn't work check ifconfig output** !!
 
 ----------------------------------------------------------------
+
+
+
+
 
 # Hacking
 Quick basic reverse shell script
