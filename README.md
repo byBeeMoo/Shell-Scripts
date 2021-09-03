@@ -1,4 +1,4 @@
-# linuxAccessPoint
+# Linux Access Point
 Sets up a quick access point with hostapd
 
 ----------------------------------------------------------------
