@@ -5,7 +5,7 @@ then
 	rm result.txt
 fi
 
-ifconfig | grep inet | head -n 1 | cut -d ' ' -f 10  > ip.txt
+ifconfig | grep inet | head -n 1 | cut -d ' ' -f 10  > ip.txt	##	Might not get the ip from ifconfig output
 txt=$(cat ip.txt)
 echo "${txt::-3}" > ip.txt
 txt=$(cat ip.txt)
