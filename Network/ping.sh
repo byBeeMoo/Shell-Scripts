@@ -9,7 +9,7 @@ ifconfig | grep inet | head -n 1 | cut -d ' ' -f 10  > ip.txt
 txt=$(cat ip.txt)
 echo "${txt::-3}" > ip.txt
 txt=$(cat ip.txt)
-for i in {3..254};
+for i in {2..254};
 do
 	ip=$txt$i
 	ping -c 1 $ip > /dev/null
