@@ -4,7 +4,7 @@ This daemon togheter with the shell script will update the list of tor nodes fro
 and format them to be used as a ip block list for nginx, pasting it to /etc/nginx/
 
 __!! Disclaimer !!__ \
-An attacker could leverage some sort of hijacking to make the script download a non-expected file. \ 
+An attacker could leverage some sort of hijacking to make the script download a non-expected file. \
 IEX. through DNS Poisoning
 
 
