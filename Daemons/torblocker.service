@@ -1,0 +1,9 @@
+[Unit]
+Description=Tor Nodes checker and blocker for nginx
+After=network.target
+
+[Service]
+ExecStart=/root/torips.sh
+
+[Install]
+WantedBy=multi-user.target

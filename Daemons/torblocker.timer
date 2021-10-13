@@ -1,0 +1,11 @@
+[Unit]
+Description=Tor Nodes checker and blocker for nginx
+
+[Timer]
+OnCalendar=daily
+AccuracySec=12h
+Persistent=true
+Unit=torblocker.service
+
+[Install]
+WantedBy=timers.target
